@@ -1,0 +1,17 @@
+= BDBJE Cache Store
+The Infinispan Community
+:icons: font
+
+== Introduction
+The `BdbjeCacheStore` is a cache loader implementation based on 
+link:$$http://www.oracle.com/database/berkeley-db/je/index.html$$[Oracle/Sleepycat's BerkeleyDB Java Edition]. 
+
+WARNING: The BerkeleyDB implementation requires a commercial license if distributed with an application (see link:$$http://www.oracle.com/database/berkeley-db/index.html$$[Oracle's website] for details).
+
+== Javadoc
+For detailed description of all the parameters supported by the stores,
+please consult the link:$$http://docs.jboss.org/infinispan/4.0/apidocs/$$[javadoc].
+
+== Configuration
+
+*TODO* 
