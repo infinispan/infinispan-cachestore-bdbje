@@ -9,9 +9,12 @@ link:$$http://www.oracle.com/database/berkeley-db/je/index.html$$[Oracle/Sleepyc
 WARNING: The BerkeleyDB implementation requires a commercial license if distributed with an application (see link:$$http://www.oracle.com/database/berkeley-db/index.html$$[Oracle's website] for details).
 
 == Javadoc
-For detailed description of all the parameters supported by the stores,
+For detailed description of all the parameters supported by this store,
 please consult the link:$$http://docs.jboss.org/infinispan/4.0/apidocs/$$[javadoc].
 
 == Configuration
+This cache store utilizes the file system to store data.
+It requires a `location` attribute, which maps to a directory to be used as a persistent store.
+(e.g., `location="/tmp/myDataStore"`).
 
 *TODO* 
